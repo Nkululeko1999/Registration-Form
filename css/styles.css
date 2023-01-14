@@ -1,0 +1,65 @@
+body{
+    font-size: 17px;
+}
+
+.card{
+    border: none!important;
+}
+
+.card-body {
+   background-color: #00204A;
+   border-radius: 14px;
+}
+
+h1{
+   margin: 15px 50px;
+}
+
+input[type="text"], textarea {
+
+    background-color : #0A2647; 
+    color: #fff;
+  
+  }
+
+textarea{
+    resize: none;
+}
+
+input[type="date"], textarea {
+
+    background-color : #0A2647; 
+    color: #fff;
+  
+  }
+
+textarea::placeholder{
+    color: #fff;
+}
+
+
+  
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input {
+    background-color: #0a0a23;
+    border: 1px solid #fff;
+    color: #ffffff;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  button[type=submit]{
+    width: 250px;
+  }
+
+    
